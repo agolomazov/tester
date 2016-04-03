@@ -1,6 +1,6 @@
 {
   "name": "agolomazov/urltester",
-  "description": "Test package for testing url (You can use arrays, сымб yaml and other format files)",
+  "description": "Test package for testing url (You can use arrays, csv, yaml and other format files)",
   "keywords": ["test-package", "url", "csv"],
   "minimum-stability": "stable",
   "license": "proprietary",
