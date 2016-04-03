@@ -22,7 +22,7 @@
   },
   "autoload": {
      "psr-4": {
-        "Agolomazov\\Tools\\": "/src"
+        "Agolomazov\\Tools\\": "src/"
      }
   }
 }
