@@ -1,0 +1,21 @@
+{
+  "name": "agolomazov/urltester",
+  "description": "Test composer package",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Anton Golomazov",
+      "email": "cesear@bk.ru"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "guzzlehttp/guzzle": "~5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.8.9"
+  },
+  "autoload": {
+    "classmap": ["src"]
+  }
+}
