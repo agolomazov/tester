@@ -4,7 +4,6 @@ namespace Agolomazov\Tools\Url;
 
 /**
  *  Класс для проверки работоспособности удаленной страницы
- *
  * Class Scanner
  * @package Agolomazov\Tools\Url
  */
@@ -23,7 +22,6 @@ class Scanner {
 
 	/**
 	 * Scanner constructor.
-	 *
 	 * @param array $urls - массив адресов для сканирования
 	 */
 	public function __construct( array $urls ) {
@@ -35,6 +33,7 @@ class Scanner {
 
 
 	/**
+	 * Получение списка невалидных неотвечающих адресов
 	 * @return array - массив невалидных урлов
 	 */
 	public function getInvalidUrls() {
@@ -61,10 +60,8 @@ class Scanner {
 
 
 	/**
-	 *  Возвращает код состояния HTTP для URL-адреса
-	 *
+	 * Возвращает код состояния HTTP для URL-адреса
 	 * @param $url - удаленный URL адрес
-	 *
 	 * @return mixed - Код состояния HTTP
 	 */
 	protected function getStatusCodeForUrl( $url ) {
