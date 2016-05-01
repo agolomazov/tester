@@ -1,3 +1,3 @@
-# This is simple package for test URL
+# Простой URL тестер
 
 Новый коммит для теста
